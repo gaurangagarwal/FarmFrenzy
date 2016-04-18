@@ -1,0 +1,249 @@
+body {
+	background-color:black;
+	margin:0px;
+	padding:0px;
+	overflow:hidden;
+}
+canvas {
+	background:transparent;
+	position:absolute;
+	margin-left:100px; /*if change , change the well hover */
+	margin-top:20px;
+	
+}
+.info {
+	font-size:20px;
+	color: white;
+	position:absolute;
+	font-family:AR JULIAN;
+	background-color:rgba(51,153,255,0.7);
+	border:3px groove #039;
+	padding:8px;
+	display:none;
+}
+#sellEggs {
+	top:570px;
+	left:820px;
+	border-radius:10px;
+	text-decoration:none;
+	font-size:22px;
+	color: white;
+	position:absolute;
+	font-family:AR JULIAN;
+	background-color:rgba(51,153,255,0.7);
+	border:3px groove #039;
+	padding:9px;
+	display:none;
+}
+
+
+#eggsCollected {  /*1060, 20*/ 
+	left :286px;
+	top :573px;
+	border-radius:0px 13px 13px 0px ;
+	padding-right:20px;
+}
+#money {
+	left : 105px;
+	top :20px;	
+	border-radius:0px 0px 13px 13px ;
+	font-size:24px;
+}
+#message {
+	left : 500px;
+	top :20px;	
+	border-radius:0px 0px 13px 13px;
+	font-size:24px;
+}
+#menu {
+	top:565px;
+	left:600px;	
+	border-radius:13px 13px 0px 0px ;
+	font-size:24px;
+	padding :10px;
+}
+#hungerLevel {
+	left : 830px;
+	top :25px;	
+	border-radius:13px;
+	font-size:20px;
+}
+#resume {
+	left :50px;
+	top :70px;	
+	border-radius:13px;
+	font-size:20px;
+}
+#howToPlay {
+	left : 20px;
+	top :170px;	
+	border-radius:13px;
+	font-size:20px;
+}
+#howToPlayImg {
+	display:none;
+	position:absolute;
+	top:20px;
+	left:100px;	
+}
+#gamePausedMenu {
+	left : 560px;
+	top :200px;	
+	border-radius:13px;
+	font-size:20px;
+	padding:20px;
+	height:200px;
+	width:155px;
+}
+#timer {
+	left : 1050px;
+	top :135px;	
+	border-radius:13px;
+	font-size:24px;
+	padding-left:10px;
+	padding-right:12px;	
+}
+#summary {
+	left : 560px;
+	top :200px;	
+	border-radius:13px;
+	font-size:24px;
+	padding:20px;	
+}
+#homeSceneMenu {
+	position:absolute;
+	top:20px;
+	left:100px;
+	width:1100px;
+	height:600px;	
+}
+#newGame {
+	left :510px;
+	top :280px;	
+	border-radius:13px;
+	font-size:26px;
+	cursor:pointer;
+	font-size:20px;
+	color: white;
+	position:absolute;
+	font-family:AR JULIAN;
+	background-color:rgba(51,153,255,0.7);
+	border:3px groove #039;
+	padding:8px;
+}
+#homeHowToPlay {
+	top:340px;
+	left:495px;
+	font-size:26px;
+	border-radius:13px;
+	cursor:pointer;
+	font-size:20px;
+	color: white;
+	position:absolute;
+	font-family:AR JULIAN;
+	background-color:rgba(51,153,255,0.7);
+	border:3px groove #039;
+	padding:8px;
+}
+#farmFrenzy {
+	position:absolute;
+	top:120px;
+	left:420px;
+	font-size:50px;
+	font-weight:bold;
+	font-family :Jokerman;
+	color:white;
+	text-shadow:5px 5px 5px black;	
+}
+#username{
+	background-color:#00F;
+	padding:8px;
+	color : white;
+	font-size:17px;
+	border-radius:7px;
+	font-family:AR JULIAN;
+	margin:8px 0px 8px 0px;	
+}
+#continue {
+	font-size:17px;
+	border-radius:5px;
+	font-family:AR JULIAN;
+	position:relative;
+	left:70px;	
+}
+
+#final {
+	position:absolute;
+	top:20px;
+	left:100px;
+	width:1100px;
+	height:600px;	
+}
+#table {
+	position:absolute;
+	top:230px;
+	left:350px;
+	border-radius: 10px;
+	background-color:rgba(0,102,0,0.7);
+	padding:5px;
+	border:2px groove #0F0;	
+}
+#heading {
+	color : black;
+	text-shadow:2px 2px 2px white;
+	font-family:Cooper Black;
+	/*background-color:#06F;*/
+	background:linear-gradient(to right,#06741e,#55fb03);
+	font-size:24px;
+	border-radius:10px;
+	
+}
+.heading {
+	padding : 10px 30px 10px 30px ;
+	border-radius:6px;	
+	box-shadow:-1px -1px 1px white;
+}
+#allScores {
+	text-align:center;
+	color :#600;
+	background-color:#0F0; /*#0F0;*/
+	font-size:19px;
+	border-radius:5px;
+	font-family:AR JULIAN;
+}
+.allScores , .myScore{
+	border-radius:3px;
+	padding:4px;
+}
+#newGamePaused {
+	text-decoration:none;
+	left : 35px;
+	top :120px;	
+	border-radius:13px;
+	font-size:20px;	
+}
+
+#newGameFinal {
+	font-size:20px;
+	color: white;
+	position:absolute;
+	font-family:AR JULIAN;
+	background-color:rgba(51,153,255,0.7);
+	border:3px groove #039;
+	padding:8px;
+	top:515px;
+	left:500px;
+	border-radius:7px;
+}
+#myScore {
+	text-align:center;
+	color : white;
+	background-color:#0F0;
+	font-size:20px;
+	border-radius:5px;
+	font-family:AR JULIAN;
+	text-shadow:2px 2px 2px black;
+}
+.myScore {
+	border:2px groove black;
+}
